@@ -1,7 +1,6 @@
 <div align="center">
 
   <!-- BANNER HEADER -->
-  <!-- BANNER HEADER -->
   <img width="100%" src="banner.svg" alt="Welcome Banner" />
 
   <br/>
