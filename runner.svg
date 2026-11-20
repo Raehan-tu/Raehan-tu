@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 105" width="1200" height="105">
+  <!-- Panel Latar Midnight Black & Border Biru -->
+  <rect x="2" y="2" width="1196" height="101" rx="8" fill="#090D16" stroke="#0055FF" stroke-width="2" />
+
+  <!-- Baris Atas: HUD Status & Segmented Loading Bar -->
+  <text x="24" y="27" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#0066FF" letter-spacing="2">
+    SYS.ACTIVE // RAEHAN-TU
+  </text>
+
+  <!-- Progress Loading Bar Kanan Atas -->
+  <g transform="translate(880, 14)">
+    <text x="-12" y="13" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="end">LOADING</text>
+    <rect x="0" y="0" width="290" height="16" rx="3" fill="#0F172A" stroke="#0055FF" stroke-width="1.5" />
+    <!-- 10 Blok Loading Bergerak -->
+    <rect x="5" y="3" width="24" height="10" fill="#0066FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="33" y="3" width="24" height="10" fill="#0066FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.15s" repeatCount="indefinite" />
+    </rect>
+    <rect x="61" y="3" width="24" height="10" fill="#0066FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.3s" repeatCount="indefinite" />
+    </rect>
+    <rect x="89" y="3" width="24" height="10" fill="#0066FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.45s" repeatCount="indefinite" />
+    </rect>
+    <rect x="117" y="3" width="24" height="10" fill="#0066FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.6s" repeatCount="indefinite" />
+    </rect>
+    <rect x="145" y="3" width="24" height="10" fill="#FFFFFF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.75s" repeatCount="indefinite" />
+    </rect>
+    <rect x="173" y="3" width="24" height="10" fill="#0066FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.9s" repeatCount="indefinite" />
+    </rect>
+    <rect x="201" y="3" width="24" height="10" fill="#0066FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="1.05s" repeatCount="indefinite" />
+    </rect>
+    <rect x="229" y="3" width="24" height="10" fill="#0066FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="1.2s" repeatCount="indefinite" />
+    </rect>
+    <rect x="257" y="3" width="28" height="10" fill="#FFFFFF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="1.35s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Garis Lintasan Bawah -->
+  <line x1="20" y1="90" x2="1180" y2="90" stroke="#0055FF" stroke-width="2" stroke-dasharray="14 8" />
+
+  <!-- Animasi Cyber-Wolf Berlari Melintasi Layar -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="-150 34" to="1260 34" dur="6s" repeatCount="indefinite" />
+
+    <!-- Jejak Kecepatan (Speed Trail) -->
+    <line x1="-45" y1="22" x2="15" y2="22" stroke="#0066FF" stroke-width="3" stroke-linecap="round" />
+    <line x1="-65" y1="32" x2="10" y2="32" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <line x1="-35" y1="42" x2="18" y2="42" stroke="#0066FF" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Gerakan Naik-Turun Badan Saat Berlari -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0; 0,-3; 0,0" dur="0.45s" repeatCount="indefinite" />
+
+      <!-- Ekor -->
+      <polygon points="28,24 4,14 9,23 27,30" fill="#0066FF">
+        <animateTransform attributeName="transform" type="rotate" values="-8 28 24; 10 28 24; -8 28 24" dur="0.45s" repeatCount="indefinite" />
+      </polygon>
+
+      <!-- Kaki Belakang -->
+      <polygon points="34,34 24,54 30,54 41,35" fill="#66A3FF">
+        <animateTransform attributeName="transform" type="rotate" values="-32 36 34; 32 36 34; -32 36 34" dur="0.45s" repeatCount="indefinite" />
+      </polygon>
+      <polygon points="38,34 32,54 38,54 45,35" fill="#FFFFFF">
+        <animateTransform attributeName="transform" type="rotate" values="32 40 34; -32 40 34; 32 40 34" dur="0.45s" repeatCount="indefinite" />
+      </polygon>
+
+      <!-- Kaki Depan -->
+      <polygon points="74,34 68,54 74,54 81,35" fill="#66A3FF">
+        <animateTransform attributeName="transform" type="rotate" values="35 76 34; -35 76 34; 35 76 34" dur="0.45s" repeatCount="indefinite" />
+      </polygon>
+      <polygon points="79,34 76,54 82,54 86,35" fill="#FFFFFF">
+        <animateTransform attributeName="transform" type="rotate" values="-35 81 34; 35 81 34; -35 81 34" dur="0.45s" repeatCount="indefinite" />
+      </polygon>
+
+      <!-- Badan Geometris -->
+      <polygon points="27,23 58,19 86,25 81,37 33,36" fill="#FFFFFF" />
+      <polygon points="44,21 72,22 68,31 42,30" fill="#0066FF" />
+
+      <!-- Kepala, Telinga Runcing & Moncong -->
+      <polygon points="78,22 86,7 93,18 109,22 100,31 82,31" fill="#FFFFFF" />
+      <polygon points="86,7 90,17 83,18" fill="#0066FF" />
+
+      <!-- Mata Biru Menyala -->
+      <circle cx="95" cy="23" r="2.2" fill="#0066FF" />
+    </g>
+  </g>
+</svg>
