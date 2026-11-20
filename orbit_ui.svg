@@ -30,7 +30,7 @@
   <g transform="translate(105, 92)">
     <rect x="0" y="0" width="300" height="68" rx="8" fill="#0F172A" stroke="#1E293B" />
     <text x="18" y="26" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#66A3FF">PRIMARY FOCUS</text>
-    <text x="18" y="50" font-family="Arial Black, sans-serif" font-size="18" fill="#FFFFFF">WEB & DATABASE</text>
+    <text x="18" y="50" font-family="Arial Black, sans-serif" font-size="18" fill="#FFFFFF">WEB + DATABASE</text>
 
     <rect x="345" y="0" width="300" height="68" rx="8" fill="#0F172A" stroke="#1E293B" />
     <text x="363" y="26" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#66A3FF">ACADEMIC BATCH</text>
