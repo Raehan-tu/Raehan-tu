@@ -7,7 +7,7 @@
   <circle cx="38" cy="19" r="5" fill="#FFFFFF" />
   <circle cx="54" cy="19" r="5" fill="#0066FF" />
   <text x="74" y="24" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
-    LIVE SYSTEM TELEMETRY // SKILL & RUNTIME ANALYTICS
+    LIVE SYSTEM TELEMETRY // SKILL + RUNTIME ANALYTICS
   </text>
   <text x="1176" y="24" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#0066FF" text-anchor="end">
     SYNC: 100%
