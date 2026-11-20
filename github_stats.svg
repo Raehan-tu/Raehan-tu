@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 396" width="580" height="396">
+  <!-- Frame Utama -->
+  <rect x="2" y="2" width="576" height="392" rx="12" fill="#090D16" stroke="#0055FF" stroke-width="2" />
+
+  <!-- Header Bar HUD -->
+  <rect x="2" y="2" width="576" height="32" rx="10" fill="#0F172A" />
+  <line x1="2" y1="34" x2="578" y2="34" stroke="#0055FF" stroke-width="1.5" />
+  <circle cx="20" cy="18" r="4.5" fill="#0066FF">
+    <animate attributeName="fill" values="#0066FF;#FFFFFF;#0066FF" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  <text x="34" y="22" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#FFFFFF" letter-spacing="1.5">
+    GITHUB TELEMETRY // RAEHAN-TU
+  </text>
+  <text x="560" y="22" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#66A3FF" text-anchor="end">
+    SYNCED
+  </text>
+
+  <!-- ==================== BAGIAN ATAS: STATS + REACTOR RING ==================== -->
+
+  <!-- Baris 1: Total Commits -->
+  <g transform="translate(22, 52)">
+    <text x="0" y="13" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#E2E8F0">TOTAL COMMITS</text>
+    <text x="355" y="13" font-family="Arial Black, sans-serif" font-size="14" fill="#0066FF" text-anchor="end">50</text>
+    <rect x="0" y="20" width="355" height="8" rx="4" fill="#0F172A" stroke="#1E293B" />
+    <rect x="2" y="22" width="275" height="4" rx="2" fill="#0066FF">
+      <animate attributeName="width" values="60;285;270;285" dur="3.6s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Baris 2: Total PRs -->
+  <g transform="translate(22, 92)">
+    <text x="0" y="13" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#E2E8F0">PULL REQUESTS</text>
+    <text x="355" y="13" font-family="Arial Black, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="end">4</text>
+    <rect x="0" y="20" width="355" height="8" rx="4" fill="#0F172A" stroke="#1E293B" />
+    <rect x="2" y="22" width="145" height="4" rx="2" fill="#FFFFFF">
+      <animate attributeName="width" values="35;155;140;155" dur="4.0s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Baris 3: Repositories -->
+  <g transform="translate(22, 132)">
+    <text x="0" y="13" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#E2E8F0">REPOSITORIES</text>
+    <text x="355" y="13" font-family="Arial Black, sans-serif" font-size="14" fill="#0066FF" text-anchor="end">11</text>
+    <rect x="0" y="20" width="355" height="8" rx="4" fill="#0F172A" stroke="#1E293B" />
+    <rect x="2" y="22" width="215" height="4" rx="2" fill="#0066FF">
+      <animate attributeName="width" values="50;225;210;225" dur="3.8s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Baris 4: Stars + Issues -->
+  <g transform="translate(22, 172)">
+    <text x="0" y="13" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#E2E8F0">STARS + ISSUES</text>
+    <text x="355" y="13" font-family="Arial Black, sans-serif" font-size="14" fill="#66A3FF" text-anchor="end">0</text>
+    <rect x="0" y="20" width="355" height="8" rx="4" fill="#0F172A" stroke="#1E293B" />
+    <rect x="2" y="22" width="32" height="4" rx="2" fill="#66A3FF">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Reaktor Peringkat Berputar (Kanan Atas) -->
+  <g transform="translate(476, 126)">
+    <!-- Halo Luar -->
+    <circle cx="0" cy="0" r="64" fill="#0F172A" stroke="#1E293B" stroke-width="2" />
+    <!-- Busur Biru Berputar -->
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#0066FF" stroke-width="6" stroke-dasharray="210 130" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4.5s" repeatCount="indefinite" />
+    </circle>
+    <!-- Busur Putih Berputar Berlawanan -->
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="55 35" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <!-- Teks Tengah -->
+    <text x="0" y="8" font-family="Arial Black, sans-serif" font-size="28" fill="#FFFFFF" text-anchor="middle">C</text>
+    <text x="0" y="24" font-family="Courier New, monospace" font-size="10" font-weight="bold" fill="#66A3FF" text-anchor="middle">RANK</text>
+  </g>
+
+  <!-- Garis Pemisah dengan Kilatan Energi -->
+  <line x1="20" y1="220" x2="560" y2="220" stroke="#1E293B" stroke-width="2" />
+  <line x1="20" y1="220" x2="560" y2="220" stroke="#0066FF" stroke-width="2.5" stroke-dasharray="80 460" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="540" to="0" dur="2.5s" repeatCount="indefinite" />
+  </line>
+
+  <!-- ==================== BAGIAN BAWAH: 3-COLUMN STREAK ENGINE ==================== -->
+
+  <!-- Kolom 1: Total Contributions -->
+  <g transform="translate(22, 236)">
+    <rect width="166" height="142" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1.5" />
+    <text x="83" y="64" font-family="Arial Black, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle">82</text>
+    <text x="83" y="92" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#66A3FF" text-anchor="middle">TOTAL</text>
+    <text x="83" y="106" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#66A3FF" text-anchor="middle">CONTRIBUTIONS</text>
+    <text x="83" y="128" font-family="Courier New, monospace" font-size="10" fill="#94A3B8" text-anchor="middle">NOV 25 - PRESENT</text>
+  </g>
+
+  <!-- Kolom 2: Current Streak (Cincin Api Berputar) -->
+  <g transform="translate(202, 236)">
+    <rect width="176" height="142" rx="10" fill="#0F172A" stroke="#0066FF" stroke-width="2" />
+
+    <!-- Cincin Streak -->
+    <circle cx="88" cy="54" r="34" fill="none" stroke="#1E293B" stroke-width="5" />
+    <circle cx="88" cy="54" r="34" fill="none" stroke="#0066FF" stroke-width="5" stroke-dasharray="150 70" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0 88 54" to="360 88 54" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Ikon Api Siber Berdenyut -->
+    <path d="M 88,11 C 93,17 95,22 91,26 C 90,23 88,21 86,23 C 83,26 84,18 88,11 Z" fill="#0066FF" stroke="#FFFFFF" stroke-width="1">
+      <animate attributeName="fill" values="#0066FF;#FFFFFF;#0066FF" dur="1s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Angka Streak -->
+    <text x="88" y="64" font-family="Arial Black, sans-serif" font-size="28" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="88" y="106" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#0066FF" text-anchor="middle">CURRENT STREAK</text>
+    <text x="88" y="128" font-family="Courier New, monospace" font-size="10" fill="#E2E8F0" text-anchor="middle">NOV 19 - NOV 21</text>
+  </g>
+
+  <!-- Kolom 3: Longest Streak -->
+  <g transform="translate(392, 236)">
+    <rect width="166" height="142" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1.5" />
+    <text x="83" y="64" font-family="Arial Black, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="83" y="92" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#66A3FF" text-anchor="middle">LONGEST</text>
+    <text x="83" y="106" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#66A3FF" text-anchor="middle">STREAK</text>
+    <text x="83" y="128" font-family="Courier New, monospace" font-size="10" fill="#94A3B8" text-anchor="middle">NOV 15 - NOV 18</text>
+  </g>
+</svg>
