@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7a7a" />
+      <stop offset="50%" stop-color="#c4c4c4" />
+      <stop offset="80%" stop-color="#e0e0e0" />
+    </linearGradient>
+    <linearGradient id="river" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#555555" />
+      <stop offset="45%" stop-color="#bdbdbd" />
+      <stop offset="100%" stop-color="#e6e6e6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Langit Gradasi Monokrom -->
+  <rect width="1200" height="320" fill="url(#sky)" />
+
+  <!-- Teks Header -->
+  <text x="600" y="105" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="34" font-weight="bold" fill="#141414" text-anchor="middle" letter-spacing="1">
+    Welcome to Raehan's GitHub
+  </text>
+  <text x="600" y="148" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="28" font-weight="bold" fill="#141414" text-anchor="middle">
+    </>
+  </text>
+
+  <!-- Siluet Bukit & Sungai Monokrom -->
+  <path d="M 0 210 Q 300 155, 620 205 T 1200 185 L 1200 320 L 0 320 Z" fill="#1f1f1f" />
+  <path d="M 0 230 Q 360 180, 720 235 T 1200 210 L 1200 320 L 0 320 Z" fill="#121212" />
+  <path d="M 610 205 C 580 225, 660 245, 560 275 C 490 295, 540 310, 520 320 L 630 320 C 640 305, 595 292, 650 272 C 720 248, 620 225, 625 205 Z" fill="url(#river)" />
+  <path d="M 0 235 Q 270 218, 535 320 L 0 320 Z" fill="#080808" />
+  <path d="M 1200 220 Q 870 232, 615 320 L 1200 320 Z" fill="#080808" />
+</svg>
