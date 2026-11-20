@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- 1. ANIMASI BANNER GELOMBANG & LASER -->
-  <img width="100%" src="banner.svg" alt="Raehan Banner" />
+  <img width="100%" src="banner.svg?v=2" alt="Raehan Banner" />
 
   <!-- 2. ANIMASI TEKS KETIKAN (TYPEWRITER) -->
   <img width="100%" src="typing.svg?v=2" alt="Typing Roles" />
@@ -18,13 +18,13 @@
 </div>
 
 <!-- 3. PEMISAH NEON PULSE -->
-<img width="100%" src="divider.svg" alt="Divider" />
+<img width="100%" src="divider.svg?v=2" alt="Divider" />
 
 <!-- BAGIAN TWO-COLUMN: WHO AM I? + 4. ANIMASI EMBLEM EQUALIZER -->
 <table>
   <tr>
     <td width="36%" align="center" valign="middle">
-      <img width="100%" src="emblem.svg" alt="Raehan Animated Emblem" />
+      <img width="100%" src="emblem.svg?v=2" alt="Raehan Animated Emblem" />
     </td>
     <td width="64%" valign="top">
       <h3 align="center">Who Am I?</h3>
@@ -70,14 +70,14 @@
 
 <!-- 5. ANIMASI HEWAN MENGELILINGI KOTAK UI -->
 <div align="center">
-  <img width="100%" src="orbit_ui.svg" alt="Animals Orbiting UI" />
+  <img width="100%" src="orbit_ui.svg?v=2" alt="Animals Orbiting UI" />
 </div>
 
 <br/>
 
 <!-- 6. ANIMASI CYBER-WOLF & HUD LOADING BAR -->
 <div align="center">
-  <img width="100%" src="runner.svg" alt="Cyber Wolf Runner" />
+  <img width="100%" src="runner.svg?v=2" alt="Cyber Wolf Runner" />
 </div>
 
 <br/>
@@ -90,40 +90,25 @@
 
 <br/>
 
-<!-- GRAFIK KONTRIBUSI BIRU -->
+<!-- 8 & 9. GRAFIK KONTRIBUSI ANIMASI + COMMIT STREAM HUD -->
 <div align="center">
   <h3>My Contributions</h3>
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Raehan-tu&bg_color=090D16&color=ffffff&line=0066FF&point=ffffff&area=true&area_color=003399&border_color=0055FF&hide_border=false&custom_title=Raehan's%20Contribution%20Graph" alt="Raehan's Contribution Graph" />
+  <img width="100%" src="contrib_graph.svg?v=2" alt="Raehan Animated Contribution Graph" />
+  <img width="100%" src="contrib_hud.svg?v=2" alt="Contribution Pulse" />
 </div>
 
 <br/>
 
-<!-- BAGIAN BAWAH: TECH STACK & GITHUB STATS -->
+<!-- 10 & 11. BAGIAN BAWAH: TECH STACK ANIMASI & GITHUB STATS ANIMASI -->
 <table>
   <tr>
-    <td width="42%" align="center" valign="top">
+    <td width="44%" align="center" valign="middle">
       <h4>My Tech Stack</h4>
-      <p>
-        <img src="https://img.shields.io/badge/C++-090D16?style=for-the-badge&logo=cplusplus&logoColor=0066FF" alt="C++" />
-        <img src="https://img.shields.io/badge/JS-090D16?style=for-the-badge&logo=javascript&logoColor=0066FF" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/HTML5-090D16?style=for-the-badge&logo=html5&logoColor=0066FF" alt="HTML5" />
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/CSS3-090D16?style=for-the-badge&logo=css3&logoColor=0066FF" alt="CSS3" />
-        <img src="https://img.shields.io/badge/NODE.JS-090D16?style=for-the-badge&logo=nodedotjs&logoColor=0066FF" alt="Node.js" />
-        <img src="https://img.shields.io/badge/MYSQL-090D16?style=for-the-badge&logo=mysql&logoColor=0066FF" alt="MySQL" />
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/GIT-090D16?style=for-the-badge&logo=git&logoColor=0066FF" alt="Git" />
-        <img src="https://img.shields.io/badge/GITHUB-090D16?style=for-the-badge&logo=github&logoColor=0066FF" alt="GitHub" />
-        <img src="https://img.shields.io/badge/VSCODE-090D16?style=for-the-badge&logo=visualstudiocode&logoColor=0066FF" alt="VS Code" />
-      </p>
+      <img width="100%" src="tech_stack.svg?v=2" alt="Animated Tech Stack" />
     </td>
-    <td width="58%" align="center" valign="top">
+    <td width="56%" align="center" valign="middle">
       <h4>GitHub Statistics</h4>
-      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Raehan-tu&show_icons=true&bg_color=090D16&title_color=0066FF&text_color=E2E8F0&icon_color=0066FF&border_color=0055FF&ring_color=0066FF" alt="GitHub Stats" />
-      <br/><br/>
-      <img width="100%" src="https://streak-stats.demolab.com?user=Raehan-tu&background=090D16&border=0055FF&stroke=1E293B&ring=0066FF&fire=0066FF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=0066FF&sideLabels=CBD5E1&dates=94A3B8" alt="GitHub Streak" />
+      <img width="100%" src="github_stats.svg?v=2" alt="Animated GitHub Statistics" />
     </td>
   </tr>
 </table>
