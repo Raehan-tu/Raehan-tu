@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220">
+  <defs>
+    <!-- Jalur Lintasan Mengelilingi 4 Sisi Kotak UI -->
+    <path id="uiOrbitPath" d="M 76,22 L 1124,22 A 24,24 0 0 1 1148,46 L 1148,174 A 24,24 0 0 1 1124,198 L 76,198 A 24,24 0 0 1 52,174 L 52,46 A 24,24 0 0 1 76,22 Z" />
+  </defs>
+
+  <!-- Latar Utama -->
+  <rect x="2" y="2" width="1196" height="216" rx="12" fill="#05080F" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Garis Lintasan Orbit Tipis -->
+  <use href="#uiOrbitPath" fill="none" stroke="#0055FF" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.55" />
+
+  <!-- KOTAK UI TENGAH YANG DIKELILINGI HEWAN -->
+  <rect x="70" y="38" width="1060" height="144" rx="16" fill="#090D16" stroke="#0066FF" stroke-width="2.5" />
+  <rect x="70" y="38" width="1060" height="32" rx="14" fill="#0F172A" />
+  <line x1="70" y1="70" x2="1130" y2="70" stroke="#0055FF" stroke-width="1.5" />
+
+  <!-- Titik Kontrol Jendela UI -->
+  <circle cx="94" cy="54" r="5" fill="#0066FF" />
+  <circle cx="112" cy="54" r="5" fill="#FFFFFF" />
+  <circle cx="130" cy="54" r="5" fill="#0066FF" />
+  <text x="150" y="59" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    UI PERIMETER GUARD // RAEHAN-TU SYSTEM
+  </text>
+  <text x="1108" y="59" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#66A3FF" text-anchor="end">
+    ORBIT: ACTIVE
+  </text>
+
+  <!-- Isi Panel UI Tengah -->
+  <g transform="translate(105, 92)">
+    <rect x="0" y="0" width="300" height="68" rx="8" fill="#0F172A" stroke="#1E293B" />
+    <text x="18" y="26" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#66A3FF">PRIMARY FOCUS</text>
+    <text x="18" y="50" font-family="Arial Black, sans-serif" font-size="18" fill="#FFFFFF">WEB & DATABASE</text>
+
+    <rect x="345" y="0" width="300" height="68" rx="8" fill="#0F172A" stroke="#1E293B" />
+    <text x="363" y="26" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#66A3FF">ACADEMIC BATCH</text>
+    <text x="363" y="50" font-family="Arial Black, sans-serif" font-size="18" fill="#0066FF">INFORMATICS '25</text>
+
+    <rect x="690" y="0" width="300" height="68" rx="8" fill="#0F172A" stroke="#1E293B" />
+    <text x="708" y="26" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#66A3FF">CORE STACK</text>
+    <text x="708" y="50" font-family="Arial Black, sans-serif" font-size="18" fill="#FFFFFF">JS • NODE • MYSQL</text>
+  </g>
+
+  <!-- HEWAN 1: CYBER-WOLF BERLARI MENGELILINGI 4 SISI KOTAK UI -->
+  <g>
+    <animateMotion dur="11s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#uiOrbitPath" />
+    </animateMotion>
+
+    <!-- Jejak Neon Biru -->
+    <line x1="-58" y1="0" x2="-18" y2="0" stroke="#0066FF" stroke-width="3" stroke-linecap="round" />
+    <line x1="-42" y1="5" x2="-14" y2="5" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
+
+    <!-- Gerakan Lari -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0; 0,-2; 0,0" dur="0.35s" repeatCount="indefinite" />
+
+      <!-- Ekor -->
+      <polygon points="-16,-2 -34,-10 -30,-2 -17,3" fill="#0066FF">
+        <animateTransform attributeName="transform" type="rotate" values="-10 -16 -2; 12 -16 -2; -10 -16 -2" dur="0.35s" repeatCount="indefinite" />
+      </polygon>
+
+      <!-- Kaki Belakang -->
+      <polygon points="-12,4 -20,16 -15,16 -7,5" fill="#66A3FF">
+        <animateTransform attributeName="transform" type="rotate" values="-30 -10 4; 30 -10 4; -30 -10 4" dur="0.35s" repeatCount="indefinite" />
+      </polygon>
+      <polygon points="-8,4 -13,16 -8,16 -3,5" fill="#FFFFFF">
+        <animateTransform attributeName="transform" type="rotate" values="30 -6 4; -30 -6 4; 30 -6 4" dur="0.35s" repeatCount="indefinite" />
+      </polygon>
+
+      <!-- Kaki Depan -->
+      <polygon points="10,4 5,16 10,16 15,5" fill="#66A3FF">
+        <animateTransform attributeName="transform" type="rotate" values="32 12 4; -32 12 4; 32 12 4" dur="0.35s" repeatCount="indefinite" />
+      </polygon>
+      <polygon points="14,4 12,16 17,16 19,5" fill="#FFFFFF">
+        <animateTransform attributeName="transform" type="rotate" values="-32 16 4; 32 16 4; -32 16 4" dur="0.35s" repeatCount="indefinite" />
+      </polygon>
+
+      <!-- Badan Geometris -->
+      <polygon points="-17,-3 4,-6 21,-1 17,7 -13,6" fill="#FFFFFF" />
+      <polygon points="-6,-4 12,-3 9,3 -7,2" fill="#0066FF" />
+
+      <!-- Kepala & Telinga -->
+      <polygon points="16,-3 21,-13 26,-6 36,-3 30,4 18,4" fill="#FFFFFF" />
+      <polygon points="21,-13 24,-6 19,-5" fill="#0066FF" />
+      <circle cx="27" cy="-2" r="1.6" fill="#0066FF" />
+    </g>
+  </g>
+
+  <!-- HEWAN 2: CYBER-FALCON TERBANG MENGELILINGI SISI BERLAWANAN -->
+  <g>
+    <animateMotion dur="11s" begin="-5.5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#uiOrbitPath" />
+    </animateMotion>
+
+    <!-- Jejak Plasma -->
+    <line x1="-50" y1="0" x2="-14" y2="0" stroke="#0066FF" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Sayap Belakang -->
+    <polygon points="0,0 -14,-14 6,-6 10,0" fill="#0055FF">
+      <animate attributeName="points" values="0,0 -14,-14 6,-6 10,0; 0,0 -10,14 6,8 10,0; 0,0 -14,-14 6,-6 10,0" dur="0.45s" repeatCount="indefinite" />
+    </polygon>
+
+    <!-- Badan & Ekor -->
+    <polygon points="-16,-2 -26,-6 -21,0 -26,6 -16,2" fill="#0066FF" />
+    <polygon points="-16,-2 6,-5 22,0 14,4 -14,3" fill="#FFFFFF" />
+    <polygon points="14,-3 24,-4 33,0 21,3" fill="#FFFFFF" />
+    <polygon points="24,-4 33,0 23,-1" fill="#0066FF" />
+
+    <!-- Sayap Depan -->
+    <polygon points="3,0 -12,-17 10,-7 14,0" fill="#FFFFFF">
+      <animate attributeName="points" values="3,0 -12,-17 10,-7 14,0; 3,0 -8,17 10,9 14,0; 3,0 -12,-17 10,-7 14,0" dur="0.45s" repeatCount="indefinite" />
+    </polygon>
+  </g>
+</svg>
