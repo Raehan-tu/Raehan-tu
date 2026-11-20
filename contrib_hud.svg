@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64">
+  <!-- Frame Utama -->
+  <rect x="2" y="2" width="1196" height="60" rx="8" fill="#090D16" stroke="#0055FF" stroke-width="2" />
+
+  <!-- Kiri: Indikator Commit Stream -->
+  <circle cx="28" cy="32" r="6" fill="#0066FF">
+    <animate attributeName="r" values="4;7;4" dur="1.4s" repeatCount="indefinite" />
+  </circle>
+  <text x="46" y="28" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#FFFFFF" letter-spacing="1.5">
+    COMMIT STREAM // LIVE ACTIVITY
+  </text>
+  <text x="46" y="45" font-family="Courier New, monospace" font-size="11" fill="#66A3FF">
+    TRACKING REPOSITORY PULSE
+  </text>
+
+  <!-- Tengah: Gelombang Aktivitas Kontribusi Bergerak -->
+  <g transform="translate(340, 10)">
+    <rect x="0" y="0" width="520" height="44" rx="6" fill="#05080F" stroke="#1E293B" />
+    <line x1="12" y1="22" x2="508" y2="22" stroke="#1E293B" stroke-dasharray="4 4" />
+
+    <!-- Garis Pulsa Aktivitas -->
+    <polyline points="15,32 75,32 105,12 130,36 155,22 220,22 250,8 275,35 300,22 370,22 400,10 425,34 450,22 505,22" fill="none" stroke="#0066FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+
+    <!-- Kilatan Energi Meluncur di Atas Garis Pulsa -->
+    <polyline points="15,32 75,32 105,12 130,36 155,22 220,22 250,8 275,35 300,22 370,22 400,10 425,34 450,22 505,22" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="60 480" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="540" to="0" dur="2.6s" repeatCount="indefinite" />
+    </polyline>
+  </g>
+
+  <!-- Kanan: Equalizer Mini -->
+  <g transform="translate(905, 18)">
+    <text x="0" y="18" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#FFFFFF">STREAK ENGINE</text>
+    <g transform="translate(135, 2)">
+      <rect x="0" y="8" width="6" height="16" rx="1" fill="#0066FF">
+        <animate attributeName="height" values="6;22;6" dur="0.8s" begin="0.0s" repeatCount="indefinite" />
+        <animate attributeName="y" values="18;2;18" dur="0.8s" begin="0.0s" repeatCount="indefinite" />
+      </rect>
+      <rect x="12" y="4" width="6" height="20" rx="1" fill="#FFFFFF">
+        <animate attributeName="height" values="20;6;20" dur="0.8s" begin="0.2s" repeatCount="indefinite" />
+        <animate attributeName="y" values="4;18;4" dur="0.8s" begin="0.2s" repeatCount="indefinite" />
+      </rect>
+      <rect x="24" y="6" width="6" height="18" rx="1" fill="#0066FF">
+        <animate attributeName="height" values="8;24;8" dur="0.8s" begin="0.4s" repeatCount="indefinite" />
+        <animate attributeName="y" values="16;0;16" dur="0.8s" begin="0.4s" repeatCount="indefinite" />
+      </rect>
+      <rect x="36" y="2" width="6" height="22" rx="1" fill="#FFFFFF">
+        <animate attributeName="height" values="22;8;22" dur="0.8s" begin="0.6s" repeatCount="indefinite" />
+        <animate attributeName="y" values="2;16;2" dur="0.8s" begin="0.6s" repeatCount="indefinite" />
+      </rect>
+    </g>
+    <text x="265" y="18" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#0066FF" text-anchor="end">ONLINE</text>
+  </g>
+</svg>
