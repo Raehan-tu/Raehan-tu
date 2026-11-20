@@ -14,41 +14,80 @@
   <rect width="1200" height="300" fill="url(#blueBg)" />
   <rect width="1200" height="300" fill="url(#dots)" />
 
+  <!-- Garis Radar Scan Bergerak -->
+  <line x1="0" y1="0" x2="740" y2="0" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.22">
+    <animate attributeName="y1" values="0;300;0" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="0;300;0" dur="5s" repeatCount="indefinite" />
+  </line>
+
   <!-- Potongan Diagonal Hitam & Aksen Varsity Putih-Navy -->
   <polygon points="760,0 1200,0 1200,300 640,300" fill="#090D16" />
   <polygon points="742,0 760,0 640,300 622,300" fill="#FFFFFF" />
   <polygon points="726,0 735,0 615,300 606,300" fill="#090D16" />
 
-  <!-- Dekorasi Geometris Kanan -->
-  <polygon points="940,45 1130,25 1095,255 880,235" fill="#0055FF" fill-opacity="0.22" />
-  <polygon points="975,70 1105,55 1075,230 925,215" fill="none" stroke="#0066FF" stroke-width="3" />
-  <text x="1015" y="155" font-family="Courier New, monospace" font-size="54" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">⟨/⟩</text>
+  <!-- Kilatan Laser Biru Meluncur di Garis Diagonal -->
+  <line x1="751" y1="0" x2="631" y2="300" stroke="#0066FF" stroke-width="6" stroke-dasharray="70 280" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="350" to="0" dur="2.2s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Dekorasi Geometris Kanan Berdenyut -->
+  <polygon points="940,45 1130,25 1095,255 880,235" fill="#0055FF" fill-opacity="0.22">
+    <animate attributeName="fill-opacity" values="0.15;0.35;0.15" dur="3s" repeatCount="indefinite" />
+  </polygon>
+  <polygon points="975,70 1105,55 1075,230 925,215" fill="none" stroke="#0066FF" stroke-width="3">
+    <animate attributeName="stroke" values="#0066FF;#FFFFFF;#0066FF" dur="3s" repeatCount="indefinite" />
+  </polygon>
+  <text x="1015" y="155" font-family="Courier New, monospace" font-size="54" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+    ⟨/⟩
+    <animate attributeName="opacity" values="1;0.45;1" dur="2s" repeatCount="indefinite" />
+  </text>
   <text x="1015" y="192" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#66A3FF" text-anchor="middle" letter-spacing="4">CLASS OF 25</text>
 
-  <!-- Tipografi Blok Gaya Referensi: R A E H A N -->
+  <!-- Tipografi Blok Animasi Gelombang: R A E H A N -->
   <g transform="translate(115, 82)">
     <!-- R -->
-    <rect x="0" y="4" width="64" height="68" fill="#090D16" transform="rotate(-3 32 38)" />
-    <text x="32" y="53" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">R</text>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="2.4s" begin="0s" repeatCount="indefinite" />
+      <rect x="0" y="4" width="64" height="68" fill="#090D16" transform="rotate(-3 32 38)" />
+      <text x="32" y="53" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">R</text>
+    </g>
     <!-- A -->
-    <rect x="72" y="0" width="64" height="68" fill="#FFFFFF" transform="rotate(2 104 34)" />
-    <text x="104" y="49" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#090D16" text-anchor="middle">A</text>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="2.4s" begin="0.2s" repeatCount="indefinite" />
+      <rect x="72" y="0" width="64" height="68" fill="#FFFFFF" transform="rotate(2 104 34)" />
+      <text x="104" y="49" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#090D16" text-anchor="middle">A</text>
+    </g>
     <!-- E -->
-    <rect x="144" y="5" width="64" height="68" fill="#090D16" transform="rotate(-2 176 39)" />
-    <text x="176" y="54" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">E</text>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="2.4s" begin="0.4s" repeatCount="indefinite" />
+      <rect x="144" y="5" width="64" height="68" fill="#090D16" transform="rotate(-2 176 39)" />
+      <text x="176" y="54" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">E</text>
+    </g>
     <!-- H -->
-    <rect x="216" y="1" width="64" height="68" fill="#FFFFFF" transform="rotate(3 248 35)" />
-    <text x="248" y="50" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#090D16" text-anchor="middle">H</text>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="2.4s" begin="0.6s" repeatCount="indefinite" />
+      <rect x="216" y="1" width="64" height="68" fill="#FFFFFF" transform="rotate(3 248 35)" />
+      <text x="248" y="50" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#090D16" text-anchor="middle">H</text>
+    </g>
     <!-- A -->
-    <rect x="288" y="5" width="64" height="68" fill="#090D16" transform="rotate(-2 320 39)" />
-    <text x="320" y="54" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">A</text>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="2.4s" begin="0.8s" repeatCount="indefinite" />
+      <rect x="288" y="5" width="64" height="68" fill="#090D16" transform="rotate(-2 320 39)" />
+      <text x="320" y="54" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">A</text>
+    </g>
     <!-- N -->
-    <rect x="360" y="0" width="64" height="68" fill="#FFFFFF" transform="rotate(2 392 34)" />
-    <text x="392" y="49" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#090D16" text-anchor="middle">N</text>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="2.4s" begin="1.0s" repeatCount="indefinite" />
+      <rect x="360" y="0" width="64" height="68" fill="#FFFFFF" transform="rotate(2 392 34)" />
+      <text x="392" y="49" font-family="Arial Black, Impact, sans-serif" font-size="44" font-weight="900" fill="#090D16" text-anchor="middle">N</text>
+    </g>
   </g>
 
-  <!-- Subjudul -->
-  <rect x="115" y="172" width="335" height="32" fill="#090D16" />
-  <text x="282" y="193" font-family="Courier New, monospace" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">INFORMATICS DEVELOPER</text>
+  <!-- Subjudul dengan Kursor Terminal Berkedip -->
+  <rect x="115" y="172" width="355" height="32" fill="#090D16" />
+  <text x="285" y="193" font-family="Courier New, monospace" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">INFORMATICS DEVELOPER</text>
+  <rect x="444" y="179" width="10" height="18" fill="#0066FF">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite" />
+  </rect>
   <text x="115" y="228" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#E0ECFF" letter-spacing="2">WEB • RESTFUL API • RELATIONAL DATABASE</text>
 </svg>
