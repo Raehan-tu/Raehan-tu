@@ -1,7 +1,8 @@
 <div align="center">
 
   <!-- BANNER HEADER -->
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:1a1a1a,100:4a4a4a&height=210&section=header&text=Welcome%20to%20Raehan's%20GitHub&fontSize=30&fontColor=ffffff&fontAlignY=43&desc=%3C/%3E&descAlignY=66&descSize=22" alt="Welcome Banner" />
+  <!-- BANNER HEADER -->
+  <img width="100%" src="banner.svg" alt="Welcome Banner" />
 
   <br/>
 
