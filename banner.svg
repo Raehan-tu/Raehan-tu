@@ -18,7 +18,7 @@
     Welcome to Raehan's GitHub
   </text>
   <text x="600" y="148" font-family="Courier New, Courier, monospace" font-size="28" font-weight="bold" fill="#141414" text-anchor="middle">
-    </>
+    ⟨/⟩
   </text>
 
   <path d="M 0 210 Q 300 155, 620 205 T 1200 185 L 1200 320 L 0 320 Z" fill="#1f1f1f" />
