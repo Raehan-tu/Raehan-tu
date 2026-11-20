@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="1200" height="56">
+  <defs>
+    <clipPath id="type1">
+      <rect x="70" y="8" width="0" height="40">
+        <animate attributeName="width" values="0;0;1050;1050;0;0" keyTimes="0;0.01;0.17;0.23;0.25;1" dur="14s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="type2">
+      <rect x="70" y="8" width="0" height="40">
+        <animate attributeName="width" values="0;0;1050;1050;0;0" keyTimes="0;0.26;0.42;0.48;0.50;1" dur="14s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="type3">
+      <rect x="70" y="8" width="0" height="40">
+        <animate attributeName="width" values="0;0;1050;1050;0;0" keyTimes="0;0.51;0.67;0.73;0.75;1" dur="14s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="type4">
+      <rect x="70" y="8" width="0" height="40">
+        <animate attributeName="width" values="0;0;1050;1050;0;0" keyTimes="0;0.76;0.92;0.98;1;1" dur="14s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="52" rx="8" fill="#090D16" stroke="#0055FF" stroke-width="2" />
+  <rect x="2" y="2" width="14" height="52" rx="4" fill="#0066FF" />
+
+  <circle cx="38" cy="28" r="6" fill="#0066FF">
+    <animate attributeName="fill" values="#0066FF;#FFFFFF;#0066FF" dur="1.2s" repeatCount="indefinite" />
+  </circle>
+
+  <g clip-path="url(#type1)">
+    <text x="72" y="34" font-family="Courier New, monospace" font-size="18" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+      // FULL-STACK WEB DEVELOPER • CLEAN & MODULAR ARCHITECTURE
+    </text>
+  </g>
+
+  <g clip-path="url(#type2)">
+    <text x="72" y="34" font-family="Courier New, monospace" font-size="18" font-weight="bold" fill="#66A3FF" letter-spacing="2">
+      // SOFTWARE DEVELOPER • WEB & INTERACTIVE SYSTEMS
+    </text>
+  </g>
+
+  <g clip-path="url(#type3)">
+    <text x="72" y="34" font-family="Courier New, monospace" font-size="18" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+      // RELATIONAL DATABASE DESIGNER • MYSQL & DATA MODELING
+    </text>
+  </g>
+
+  <g clip-path="url(#type4)">
+    <text x="72" y="34" font-family="Courier New, monospace" font-size="18" font-weight="bold" fill="#66A3FF" letter-spacing="2">
+      // INFORMATICS ENGINEERING '25 • TADULAKO UNIVERSITY
+    </text>
+  </g>
+
+  <rect x="1145" y="18" width="32" height="20" rx="4" fill="#0055FF" />
+  <text x="1161" y="32" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ON</text>
+</svg>
