@@ -4,7 +4,7 @@
   <img width="100%" src="banner.svg" alt="Raehan Banner" />
 
   <!-- 2. ANIMASI TEKS KETIKAN (TYPEWRITER) -->
-  <img width="100%" src="typing.svg" alt="Typing Roles" />
+  <img width="100%" src="typing.svg?v=2" alt="Typing Roles" />
 
   <br/>
 
@@ -85,7 +85,7 @@
 <!-- 7. ANIMASI LIVE TELEMETRY, RADAR RINGS & SKILL BARS -->
 <div align="center">
   <h3>System Telemetry &amp; Skill Load</h3>
-  <img width="100%" src="telemetry.svg" alt="Live System Telemetry" />
+  <img width="100%" src="telemetry.svg?v=2" alt="Live System Telemetry" />
 </div>
 
 <br/>
