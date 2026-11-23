@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380">
+  <defs>
+    <pattern id="bioGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#0F172A" stroke-width="1.2" />
+    </pattern>
+
+    
+    <clipPath id="bioL1">
+      <rect x="28" y="62" width="0" height="24">
+        <animate attributeName="width" values="0;585;585;0" keyTimes="0;0.06;0.95;1" dur="24s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="bioL2">
+      <rect x="28" y="84" width="0" height="24">
+        <animate attributeName="width" values="0;0;585;585;0" keyTimes="0;0.06;0.12;0.95;1" dur="24s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="bioL3">
+      <rect x="28" y="106" width="0" height="24">
+        <animate attributeName="width" values="0;0;585;585;0" keyTimes="0;0.12;0.18;0.95;1" dur="24s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="bioL4">
+      <rect x="28" y="142" width="0" height="24">
+        <animate attributeName="width" values="0;0;585;585;0" keyTimes="0;0.20;0.26;0.95;1" dur="24s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="bioL5">
+      <rect x="28" y="164" width="0" height="24">
+        <animate attributeName="width" values="0;0;585;585;0" keyTimes="0;0.26;0.32;0.95;1" dur="24s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="bioL6">
+      <rect x="28" y="186" width="0" height="24">
+        <animate attributeName="width" values="0;0;585;585;0" keyTimes="0;0.32;0.38;0.95;1" dur="24s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="bioL7">
+      <rect x="28" y="222" width="0" height="24">
+        <animate attributeName="width" values="0;0;585;585;0" keyTimes="0;0.40;0.46;0.95;1" dur="24s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="bioL8">
+      <rect x="28" y="244" width="0" height="24">
+        <animate attributeName="width" values="0;0;585;585;0" keyTimes="0;0.46;0.51;0.95;1" dur="24s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="bioL9">
+      <rect x="28" y="266" width="0" height="26">
+        <animate attributeName="width" values="0;0;585;585;0" keyTimes="0;0.51;0.56;0.95;1" dur="24s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  
+  <rect x="2" y="2" width="636" height="376" rx="14" fill="#090D16" stroke="#0055FF" stroke-width="2" />
+  <rect x="4" y="4" width="632" height="372" rx="12" fill="url(#bioGrid)" />
+
+  
+  <line x1="12" y1="44" x2="628" y2="44" stroke="#0066FF" stroke-width="1.5" opacity="0.22">
+    <animate attributeName="y1" values="44;336;44" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="44;336;44" dur="7s" repeatCount="indefinite" />
+  </line>
+
+  
+  <rect x="2" y="2" width="636" height="36" rx="12" fill="#0F172A" />
+  <line x1="2" y1="38" x2="638" y2="38" stroke="#0055FF" stroke-width="1.5" />
+  <circle cx="22" cy="20" r="5" fill="#0066FF" />
+  <circle cx="38" cy="20" r="5" fill="#FFFFFF" />
+  <circle cx="54" cy="20" r="5" fill="#0066FF" />
+  <text x="320" y="25" font-family="Arial Black, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+    WHO AM I?
+  </text>
+  <text x="618" y="24" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#66A3FF" text-anchor="end">
+    BIO.SH
+  </text>
+
+  
+  <g clip-path="url(#bioL1)">
+    <text x="28" y="79" font-family="Courier New, monospace" font-size="13.5" fill="#E2E8F0">
+      I am an <tspan fill="#FFFFFF" font-weight="bold">Informatics Engineering</tspan> student (Class of 2025)
+    </text>
+  </g>
+  <g clip-path="url(#bioL2)">
+    <text x="28" y="101" font-family="Courier New, monospace" font-size="13.5" fill="#E2E8F0">
+      at <tspan fill="#FFFFFF" font-weight="bold">Tadulako University</tspan>, driven by a strong interest in
+    </text>
+  </g>
+  <g clip-path="url(#bioL3)">
+    <text x="28" y="123" font-family="Courier New, monospace" font-size="13.5" font-weight="bold" fill="#66A3FF">
+      Web Development, Software Engineering + Relational DB.
+    </text>
+  </g>
+
+  
+  <g clip-path="url(#bioL4)">
+    <text x="28" y="159" font-family="Courier New, monospace" font-size="13.5" fill="#E2E8F0">
+      Over time, I have built practical projects ranging from
+    </text>
+  </g>
+  <g clip-path="url(#bioL5)">
+    <text x="28" y="181" font-family="Courier New, monospace" font-size="13.5" fill="#E2E8F0">
+      <tspan fill="#FFFFFF" font-weight="bold">Point of Sale (POS)</tspan> web apps and <tspan fill="#FFFFFF" font-weight="bold">Node.js</tspan> systems to
+    </text>
+  </g>
+  <g clip-path="url(#bioL6)">
+    <text x="28" y="203" font-family="Courier New, monospace" font-size="13.5" fill="#E2E8F0">
+      <tspan fill="#66A3FF" font-weight="bold">MySQL</tspan> database schemas + <tspan fill="#66A3FF" font-weight="bold">Geographic Info Systems (GIS)</tspan>.
+    </text>
+  </g>
+
+  
+  <g clip-path="url(#bioL7)">
+    <text x="28" y="239" font-family="Courier New, monospace" font-size="13.5" fill="#E2E8F0">
+      Currently, I am focused on writing clean, modular code
+    </text>
+  </g>
+  <g clip-path="url(#bioL8)">
+    <text x="28" y="261" font-family="Courier New, monospace" font-size="13.5" fill="#E2E8F0">
+      and sharpening my problem-solving skills in:
+    </text>
+  </g>
+  <g clip-path="url(#bioL9)">
+    <text x="28" y="285" font-family="Courier New, monospace" font-size="14" font-weight="bold" fill="#0066FF" letter-spacing="1">
+      ▸ JavaScript  •  Node.js  •  C++  •  MySQL
+    </text>
+  </g>
+
+  
+  <line x1="20" y1="334" x2="620" y2="334" stroke="#1E293B" stroke-width="1.5" />
+  <text x="28" y="357" font-family="Courier New, monospace" font-size="12" font-weight="bold" fill="#66A3FF">
+    raehan@untad:~$ typing_bio --active
+  </text>
+  <rect x="286" y="345" width="9" height="15" fill="#0066FF">
+    <animate attributeName="opacity" values="1;0;1" dur="0.85s" repeatCount="indefinite" />
+  </rect>
+  <text x="612" y="357" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="end">
+    UTF-8 // 100%
+  </text>
+</svg>
