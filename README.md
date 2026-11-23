@@ -20,38 +20,23 @@
 <!-- 3. PEMISAH NEON PULSE -->
 <img width="100%" src="divider.svg?v=2" alt="Divider" />
 
-<!-- BAGIAN TWO-COLUMN: WHO AM I? + 4. ANIMASI EMBLEM EQUALIZER -->
+<!-- 4 & 5. BAGIAN TWO-COLUMN: ANIMATED EMBLEM + ANIMATED WHO AM I -->
 <table>
   <tr>
     <td width="36%" align="center" valign="middle">
-      <img width="100%" src="emblem.svg?v=2" alt="Raehan Animated Emblem" />
+      <img width="100%" src="emblem.svg?v=3" alt="Raehan Animated Emblem" />
     </td>
-    <td width="64%" valign="top">
-      <h3 align="center">Who Am I?</h3>
-      <p>
-        I am an <b>Informatics Engineering</b> undergraduate student (Class of 2025) at <b>Tadulako University</b>, driven by a strong interest in <code>Web Development</code>, <code>Software Engineering</code>, and <code>Relational Databases</code>.
-      </p>
-      <p>
-        Over time, I have built practical projects ranging from <b>Point of Sale (POS)</b> web applications and <b>Node.js</b> systems to <b>MySQL</b> database schemas and <b>Geographic Information Systems (GIS)</b>.
-      </p>
-      <p>
-        Currently, I am focused on writing clean, modular code and sharpening my problem-solving skills in <code>JavaScript</code>, <code>Node.js</code>, <code>C++</code>, and <code>MySQL</code>.
-      </p>
+    <td width="64%" align="center" valign="middle">
+      <img width="100%" src="who_am_i.svg?v=3" alt="Who Am I Animated" />
     </td>
   </tr>
 </table>
 
-<!-- TAUTAN SOSIAL -->
+<!-- TAUTAN SOSIAL (GMAIL & GITHUB) -->
 <div align="center">
   <p><b>You can Click here</b></p>
-  <a href="https://linkedin.com/in/USERNAME_LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-0055FF?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
   <a href="mailto:raehanhamdani135@gmail.com">
     <img src="https://img.shields.io/badge/GMAIL-0055FF?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://instagram.com/USERNAME_IG" target="_blank">
-    <img src="https://img.shields.io/badge/INSTAGRAM-0055FF?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   <a href="https://github.com/Raehan-tu" target="_blank">
     <img src="https://img.shields.io/badge/GITHUB-090D16?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -60,29 +45,21 @@
 
 <br/>
 
-<!-- CALLOUT BIRU -->
-> [!NOTE]
-> Code is never finished, it only gets better.
->
-> What you see here is built with practice, curiosity, and persistence.
-
-<br/>
-
-<!-- 5. ANIMASI HEWAN MENGELILINGI KOTAK UI -->
+<!-- 6. ANIMASI HEWAN MENGELILINGI KOTAK UI -->
 <div align="center">
   <img width="100%" src="orbit_ui.svg?v=2" alt="Animals Orbiting UI" />
 </div>
 
 <br/>
 
-<!-- 6. ANIMASI CYBER-WOLF & HUD LOADING BAR -->
+<!-- 7. ANIMASI CYBER-WOLF & HUD LOADING BAR -->
 <div align="center">
   <img width="100%" src="runner.svg?v=2" alt="Cyber Wolf Runner" />
 </div>
 
 <br/>
 
-<!-- 7. ANIMASI LIVE TELEMETRY, RADAR RINGS & SKILL BARS -->
+<!-- 8. ANIMASI LIVE TELEMETRY, RADAR RINGS & SKILL BARS -->
 <div align="center">
   <h3>System Telemetry &amp; Skill Load</h3>
   <img width="100%" src="telemetry.svg?v=2" alt="Live System Telemetry" />
@@ -90,7 +67,7 @@
 
 <br/>
 
-<!-- 8 & 9. GRAFIK KONTRIBUSI ANIMASI + COMMIT STREAM HUD -->
+<!-- 9 & 10. GRAFIK KONTRIBUSI ANIMASI + COMMIT STREAM HUD -->
 <div align="center">
   <h3>My Contributions</h3>
   <img width="100%" src="contrib_graph.svg?v=2" alt="Raehan Animated Contribution Graph" />
@@ -99,7 +76,7 @@
 
 <br/>
 
-<!-- 10 & 11. BAGIAN BAWAH: TECH STACK ANIMASI & GITHUB STATS ANIMASI -->
+<!-- 11 & 12. BAGIAN BAWAH: TECH STACK ANIMASI & GITHUB STATS ANIMASI -->
 <table>
   <tr>
     <td width="44%" align="center" valign="middle">
