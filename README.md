@@ -24,7 +24,7 @@
 <table>
   <tr>
     <td width="36%" align="center" valign="middle">
-      <img width="100%" src="emblem.svg?v=2" alt="Raehan Animated Emblem" />
+      <img width="100%" src="emblem.svg?v=3" alt="Raehan Animated Emblem" />
     </td>
     <td width="64%" align="center" valign="middle">
       <img width="100%" src="who_am_i.svg?v=3" alt="Who Am I Animated" />
