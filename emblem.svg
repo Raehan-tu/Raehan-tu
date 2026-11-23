@@ -1,49 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 340" width="320" height="340">
-  <rect width="320" height="340" rx="14" fill="#090D16" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 380" width="360" height="380">
+  <defs>
+    <pattern id="emblemGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0F172A" stroke-width="1.2" />
+    </pattern>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0066FF" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#0044CC" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0" />
+    </radialGradient>
+  </defs>
 
-  <!-- Bingkai Sudut Diagonal -->
-  <polygon points="35,45 275,25 290,295 45,315" fill="#0055FF" />
-  <polygon points="48,58 262,40 275,282 58,300" fill="#090D16" />
-  <polygon points="48,58 262,40 266,115 52,135" fill="#FFFFFF" />
+  
+  <rect x="2" y="2" width="356" height="376" rx="14" fill="#090D16" stroke="#0055FF" stroke-width="2" />
+  <rect x="4" y="4" width="352" height="372" rx="12" fill="url(#emblemGrid)" />
+  <circle cx="180" cy="190" r="165" fill="url(#coreGlow)">
+    <animate attributeName="r" values="145;175;145" dur="4s" repeatCount="indefinite" />
+  </circle>
 
-  <!-- Teks Header -->
-  <text x="158" y="102" font-family="Arial Black, sans-serif" font-size="30" font-weight="900" fill="#090D16" text-anchor="middle" letter-spacing="2">RH // 25</text>
-
-  <!-- Simbol Kurung Kurawal Berdenyut -->
-  <text x="162" y="188" font-family="Courier New, monospace" font-size="56" font-weight="bold" fill="#0066FF" text-anchor="middle">
-    { }
-    <animate attributeName="fill" values="#0066FF;#FFFFFF;#0066FF" dur="2.5s" repeatCount="indefinite" />
-  </text>
-
-  <!-- Live Equalizer / Loading Bars -->
-  <g transform="translate(115, 206)">
-    <rect x="0" y="10" width="10" height="14" rx="2" fill="#0066FF">
-      <animate attributeName="height" values="6;22;6" dur="0.9s" begin="0s" repeatCount="indefinite" />
-      <animate attributeName="y" values="18;2;18" dur="0.9s" begin="0s" repeatCount="indefinite" />
-    </rect>
-    <rect x="16" y="4" width="10" height="20" rx="2" fill="#FFFFFF">
-      <animate attributeName="height" values="22;8;22" dur="0.9s" begin="0.15s" repeatCount="indefinite" />
-      <animate attributeName="y" values="2;16;2" dur="0.9s" begin="0.15s" repeatCount="indefinite" />
-    </rect>
-    <rect x="32" y="8" width="10" height="16" rx="2" fill="#0066FF">
-      <animate attributeName="height" values="8;24;8" dur="0.9s" begin="0.3s" repeatCount="indefinite" />
-      <animate attributeName="y" values="16;0;16" dur="0.9s" begin="0.3s" repeatCount="indefinite" />
-    </rect>
-    <rect x="48" y="2" width="10" height="22" rx="2" fill="#FFFFFF">
-      <animate attributeName="height" values="20;6;20" dur="0.9s" begin="0.45s" repeatCount="indefinite" />
-      <animate attributeName="y" values="4;18;4" dur="0.9s" begin="0.45s" repeatCount="indefinite" />
-    </rect>
-    <rect x="64" y="10" width="10" height="14" rx="2" fill="#0066FF">
-      <animate attributeName="height" values="6;20;6" dur="0.9s" begin="0.6s" repeatCount="indefinite" />
-      <animate attributeName="y" values="18;4;18" dur="0.9s" begin="0.6s" repeatCount="indefinite" />
-    </rect>
-    <rect x="80" y="6" width="10" height="18" rx="2" fill="#FFFFFF">
-      <animate attributeName="height" values="18;8;18" dur="0.9s" begin="0.75s" repeatCount="indefinite" />
-      <animate attributeName="y" values="6;16;6" dur="0.9s" begin="0.75s" repeatCount="indefinite" />
-    </rect>
+  
+  <g transform="translate(180, 190)">
+    <circle cx="0" cy="0" r="148" fill="none" stroke="#0055FF" stroke-width="1.5" stroke-dasharray="18 12" opacity="0.45">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="132" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="6 18" opacity="0.3">
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="14s" repeatCount="indefinite" />
+    </circle>
   </g>
 
-  <!-- Label Bawah -->
-  <rect x="82" y="244" width="160" height="28" fill="#0055FF" />
-  <text x="162" y="263" font-family="Courier New, monospace" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">CLASS A • UNTAD</text>
+  
+  <circle cx="42" cy="310" r="2.5" fill="#0066FF">
+    <animate attributeName="cy" values="330;50" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="5.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="318" cy="290" r="2" fill="#FFFFFF">
+    <animate attributeName="cy" values="340;60" dur="4.8s" begin="1.2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.9;0" dur="4.8s" begin="1.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="65" cy="260" r="2" fill="#66A3FF">
+    <animate attributeName="cy" values="320;80" dur="6.2s" begin="2.4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.8;0" dur="6.2s" begin="2.4s" repeatCount="indefinite" />
+  </circle>
+
+  
+  <path d="M 16,34 L 16,16 L 34,16" fill="none" stroke="#0066FF" stroke-width="2.5" />
+  <path d="M 326,16 L 344,16 L 344,34" fill="none" stroke="#0066FF" stroke-width="2.5" />
+  <path d="M 16,346 L 16,364 L 34,364" fill="none" stroke="#0066FF" stroke-width="2.5" />
+  <path d="M 326,364 L 344,364 L 344,346" fill="none" stroke="#0066FF" stroke-width="2.5" />
+
+  
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="3.6s" repeatCount="indefinite" />
+
+    
+    <polygon points="52,58 298,38 312,322 62,342" fill="#0055FF" />
+    <polygon points="65,71 285,53 298,309 75,327" fill="#090D16" />
+    <polygon points="65,71 285,53 289,130 69,150" fill="#FFFFFF" />
+
+    
+    <text x="178" y="117" font-family="Arial Black, sans-serif" font-size="31" font-weight="900" fill="#090D16" text-anchor="middle" letter-spacing="2">RH // 25</text>
+
+    
+    <text x="182" y="206" font-family="Courier New, monospace" font-size="56" font-weight="bold" fill="#0066FF" text-anchor="middle">
+      { }
+      <animate attributeName="fill" values="#0066FF;#FFFFFF;#0066FF" dur="2.5s" repeatCount="indefinite" />
+    </text>
+
+    
+    <g transform="translate(135, 226)">
+      <rect x="0" y="10" width="10" height="14" rx="2" fill="#0066FF">
+        <animate attributeName="height" values="6;22;6" dur="0.9s" begin="0s" repeatCount="indefinite" />
+        <animate attributeName="y" values="18;2;18" dur="0.9s" begin="0s" repeatCount="indefinite" />
+      </rect>
+      <rect x="16" y="4" width="10" height="20" rx="2" fill="#FFFFFF">
+        <animate attributeName="height" values="22;8;22" dur="0.9s" begin="0.15s" repeatCount="indefinite" />
+        <animate attributeName="y" values="2;16;2" dur="0.9s" begin="0.15s" repeatCount="indefinite" />
+      </rect>
+      <rect x="32" y="8" width="10" height="16" rx="2" fill="#0066FF">
+        <animate attributeName="height" values="8;24;8" dur="0.9s" begin="0.3s" repeatCount="indefinite" />
+        <animate attributeName="y" values="16;0;16" dur="0.9s" begin="0.3s" repeatCount="indefinite" />
+      </rect>
+      <rect x="48" y="2" width="10" height="22" rx="2" fill="#FFFFFF">
+        <animate attributeName="height" values="20;6;20" dur="0.9s" begin="0.45s" repeatCount="indefinite" />
+        <animate attributeName="y" values="4;18;4" dur="0.9s" begin="0.45s" repeatCount="indefinite" />
+      </rect>
+      <rect x="64" y="10" width="10" height="14" rx="2" fill="#0066FF">
+        <animate attributeName="height" values="6;20;6" dur="0.9s" begin="0.6s" repeatCount="indefinite" />
+        <animate attributeName="y" values="18;4;18" dur="0.9s" begin="0.6s" repeatCount="indefinite" />
+      </rect>
+      <rect x="80" y="6" width="10" height="18" rx="2" fill="#FFFFFF">
+        <animate attributeName="height" values="18;8;18" dur="0.9s" begin="0.75s" repeatCount="indefinite" />
+        <animate attributeName="y" values="6;16;6" dur="0.9s" begin="0.75s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    
+    <rect x="102" y="266" width="160" height="28" fill="#0055FF" />
+    <text x="182" y="285" font-family="Courier New, monospace" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">CLASS A • UNTAD</text>
+  </g>
 </svg>
